@@ -8,9 +8,9 @@ This ZIP contains the editable source of your portfolio. You can change it, run 
 2. Keep the entire `Vishwjeet-Portfolio` folder together. You can put it anywhere writable, such as Documents. Avoid a network drive or a folder requiring administrator access.
 3. Install **Node.js with npm**, version 22.12 or newer, from https://nodejs.org/en/download. The project was tested with Node 22.18.0 and npm 10.9.3. The optional `.nvmrc` selects that tested Node version for people using a Node version manager.
 4. Close and reopen any terminals after installation so they can find Node.
-5. Install VS Code if you want an editor, and Git if you want to push to GitHub. Links are in `requirements.txt`.
+5. Install VS Code if you want an editor, and Git if you want to push to GitHub. Links are in `PREREQUISITES.md`.
 
-`requirements.txt` explains the prerequisites; it is **not a Python pip requirements file**. The actual project packages are installed with npm using the included lockfile.
+`PREREQUISITES.md` explains the prerequisites. The actual project packages are installed with npm using the included lockfile.
 
 ## 2. Run it on Windows
 

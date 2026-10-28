@@ -4,7 +4,7 @@ A static-first, responsive portfolio for Vishwjeet Vinod Lilhare, focused on UEF
 
 ## Stack and setup
 
-**Received this project as a ZIP? Read [START-HERE.md](START-HERE.md) first.** Windows users can run `setup.cmd` once and then `start.cmd`. Prerequisites are listed in `requirements.txt`; npm dependencies are locked in `package-lock.json`.
+**Received this project as a ZIP? Read [START-HERE.md](START-HERE.md) first.** Windows users can run `setup.cmd` once and then `start.cmd`. Prerequisites are listed in `PREREQUISITES.md`; npm dependencies are locked in `package-lock.json`.
 
 React, TypeScript, Vite, Motion for React, Lucide React, and plain CSS. No database, backend, secret keys, or paid service is required. Node.js 22.12+ is required. Dependencies are locked in `package-lock.json`.
 

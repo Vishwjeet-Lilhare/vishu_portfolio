@@ -13,7 +13,7 @@ $includedPaths = @(
     '.env.example', '.gitignore', '.nvmrc',
     'package.json', 'package-lock.json', 'index.html',
     'tsconfig.json', 'vite.config.ts', 'vercel.json', 'playwright.config.ts',
-    'README.md', 'START-HERE.md', 'requirements.txt', 'setup.cmd', 'start.cmd'
+    'README.md', 'START-HERE.md', 'PREREQUISITES.md', 'setup.cmd', 'start.cmd'
 )
 
 New-Item -ItemType Directory -Path $packageRoot -Force | Out-Null

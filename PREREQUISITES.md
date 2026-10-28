@@ -1,6 +1,5 @@
 # VISHWJEET PORTFOLIO - PREREQUISITES
 # This is a React/TypeScript/Node.js project, NOT a Python project.
-# Do not run "pip install -r requirements.txt".
 # JavaScript packages are listed in package.json and locked in package-lock.json.
 
 Required:
