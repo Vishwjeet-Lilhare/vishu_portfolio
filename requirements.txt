@@ -1,0 +1,40 @@
+# VISHWJEET PORTFOLIO - PREREQUISITES
+# This is a React/TypeScript/Node.js project, NOT a Python project.
+# Do not run "pip install -r requirements.txt".
+# JavaScript packages are listed in package.json and locked in package-lock.json.
+
+Required:
+1. Node.js 22.12.0 or newer, with npm included.
+   Download: https://nodejs.org/en/download
+   Tested handoff runtime: Node.js 22.18.0, npm 10.9.3.
+2. A modern browser (Chrome, Edge, Firefox, or Safari).
+3. Internet access for the initial npm ci installation.
+4. Extract the complete ZIP to a writable local folder before running commands.
+
+Recommended:
+- Visual Studio Code: https://code.visualstudio.com/
+- Git (needed only for version control/pushing): https://git-scm.com/downloads
+- Your own GitHub account and an empty repository for the push.
+
+Install project packages:
+  npm ci
+
+Start development:
+  npm run dev
+
+Check production build:
+  npm run build
+
+Windows shortcut:
+  Double-click setup.cmd once, then start.cmd to run the site.
+
+Optional browser tests:
+  npx playwright install chromium
+  npm test
+
+Not needed for the base website:
+- Python, pip, Supabase, a database, Docker, API keys, or a paid service.
+- Environment variables (VITE_SITE_URL is optional final deployment metadata).
+- A globally installed Vite, TypeScript, React, or Playwright.
+
+Read START-HERE.md for the full setup, editing, and GitHub handoff instructions.

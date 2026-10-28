@@ -1,0 +1,30 @@
+{
+  "name": "vishwjeet-gameplay-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "playwright test"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "motion": "14.7.1",
+    "lucide-react": "1.63.0"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/node": "latest",
+    "typescript": "7.0.2",
+    "vite": "8.3.5",
+    "@playwright/test": "latest",
+    "@axe-core/playwright": "latest"
+  }
+}
